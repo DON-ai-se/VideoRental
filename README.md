@@ -10,6 +10,8 @@ SRP는 소프트웨어 개발에서 중요한 원칙 중 하나입니다. 이 �
 **-> register 메서드는 customer와 video에 대한 처리를 같이 하고 있기 때문에 각각 registerCustomer, registerVideo 메서드로 분리하였음.**
 
 ## second & third commit
-Long Metheod
+"Long Method"는 함수나 메서드가 지나치게 긴 것을 말합니다. 
+
+메서드가 너무 길어지면 코드의 가독성이 나빠지며, 유지보수가 어려워집니다. 또한 메서드가 지나치게 길어지면 해당 메서드가 여러 가지 일을 수행하고 있을 가능성이 높습니다.
 
 **-> getReport메서드는 너무 많은 기능을 포함하고 있으며 60줄 정도의 코드 길이를 가지고 있음. second에서는 중복되는 기능을 하나로 통합하였으며 third에서는 ***Extract Method***기법을 사용하여 기능들을 calDaysRented, calEachCharge, calEachPoint, calTotalPoint등의 메서드로 분리하였음.**
